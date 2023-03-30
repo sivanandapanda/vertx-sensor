@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.example.vertx.AppTest" time="0.027" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/maxx/projects/tutorial/youtube/vertx/vertx-sensor/temperature-sensors/target/test-classes:/home/maxx/projects/tutorial/youtube/vertx/vertx-sensor/temperature-sensors/target/classes:/home/maxx/.m2/repository/io/vertx/vertx-hazelcast/4.2.4/vertx-hazelcast-4.2.4.jar:/home/maxx/.m2/repository/com/hazelcast/hazelcast/4.2.2/hazelcast-4.2.2.jar:/home/maxx/.m2/repository/io/vertx/vertx-core/4.2.4/vertx-core-4.2.4.jar:/home/maxx/.m2/repository/io/netty/netty-common/4.1.73.Final/netty-common-4.1.73.Final.jar:/home/maxx/.m2/repository/io/netty/netty-buffer/4.1.73.Final/netty-buffer-4.1.73.Final.jar:/home/maxx/.m2/repository/io/netty/netty-transport/4.1.73.Final/netty-transport-4.1.73.Final.jar:/home/maxx/.m2/repository/io/netty/netty-handler/4.1.73.Final/netty-handler-4.1.73.Final.jar:/home/maxx/.m2/repository/io/netty/netty-codec/4.1.73.Final/netty-codec-4.1.73.Final.jar:/home/maxx/.m2/repository/io/netty/netty-tcnative-classes/2.0.46.Final/netty-tcnative-classes-2.0.46.Final.jar:/home/maxx/.m2/repository/io/netty/netty-handler-proxy/4.1.73.Final/netty-handler-proxy-4.1.73.Final.jar:/home/maxx/.m2/repository/io/netty/netty-codec-socks/4.1.73.Final/netty-codec-socks-4.1.73.Final.jar:/home/maxx/.m2/repository/io/netty/netty-codec-http/4.1.73.Final/netty-codec-http-4.1.73.Final.jar:/home/maxx/.m2/repository/io/netty/netty-codec-http2/4.1.73.Final/netty-codec-http2-4.1.73.Final.jar:/home/maxx/.m2/repository/io/netty/netty-resolver/4.1.73.Final/netty-resolver-4.1.73.Final.jar:/home/maxx/.m2/repository/io/netty/netty-resolver-dns/4.1.73.Final/netty-resolver-dns-4.1.73.Final.jar:/home/maxx/.m2/repository/io/netty/netty-codec-dns/4.1.73.Final/netty-codec-dns-4.1.73.Final.jar:/home/maxx/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.13.1/jackson-core-2.13.1.jar:/home/maxx/.m2/repository/io/vertx/vertx-web/4.2.4/vertx-web-4.2.4.jar:/home/maxx/.m2/repository/io/vertx/vertx-web-common/4.2.4/vertx-web-common-4.2.4.jar:/home/maxx/.m2/repository/io/vertx/vertx-auth-common/4.2.4/vertx-auth-common-4.2.4.jar:/home/maxx/.m2/repository/io/vertx/vertx-bridge-common/4.2.4/vertx-bridge-common-4.2.4.jar:/home/maxx/.m2/repository/junit/junit/4.13.1/junit-4.13.1.jar:/home/maxx/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="java.vm.vendor" value="Private Build"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="Unknown"/>
+    <property name="os.name" value="Linux"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-17-openjdk-amd64/lib"/>
+    <property name="sun.java.command" value="/home/maxx/projects/tutorial/youtube/vertx/vertx-sensor/temperature-sensors/target/surefire/surefirebooter4663440033487530157.jar /home/maxx/projects/tutorial/youtube/vertx/vertx-sensor/temperature-sensors/target/surefire 2023-03-30T19-33-15_306-jvmRun1 surefire7101375934170314214tmp surefire_08400372797124015531tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/home/maxx/projects/tutorial/youtube/vertx/vertx-sensor/temperature-sensors/target/test-classes:/home/maxx/projects/tutorial/youtube/vertx/vertx-sensor/temperature-sensors/target/classes:/home/maxx/.m2/repository/io/vertx/vertx-hazelcast/4.2.4/vertx-hazelcast-4.2.4.jar:/home/maxx/.m2/repository/com/hazelcast/hazelcast/4.2.2/hazelcast-4.2.2.jar:/home/maxx/.m2/repository/io/vertx/vertx-core/4.2.4/vertx-core-4.2.4.jar:/home/maxx/.m2/repository/io/netty/netty-common/4.1.73.Final/netty-common-4.1.73.Final.jar:/home/maxx/.m2/repository/io/netty/netty-buffer/4.1.73.Final/netty-buffer-4.1.73.Final.jar:/home/maxx/.m2/repository/io/netty/netty-transport/4.1.73.Final/netty-transport-4.1.73.Final.jar:/home/maxx/.m2/repository/io/netty/netty-handler/4.1.73.Final/netty-handler-4.1.73.Final.jar:/home/maxx/.m2/repository/io/netty/netty-codec/4.1.73.Final/netty-codec-4.1.73.Final.jar:/home/maxx/.m2/repository/io/netty/netty-tcnative-classes/2.0.46.Final/netty-tcnative-classes-2.0.46.Final.jar:/home/maxx/.m2/repository/io/netty/netty-handler-proxy/4.1.73.Final/netty-handler-proxy-4.1.73.Final.jar:/home/maxx/.m2/repository/io/netty/netty-codec-socks/4.1.73.Final/netty-codec-socks-4.1.73.Final.jar:/home/maxx/.m2/repository/io/netty/netty-codec-http/4.1.73.Final/netty-codec-http-4.1.73.Final.jar:/home/maxx/.m2/repository/io/netty/netty-codec-http2/4.1.73.Final/netty-codec-http2-4.1.73.Final.jar:/home/maxx/.m2/repository/io/netty/netty-resolver/4.1.73.Final/netty-resolver-4.1.73.Final.jar:/home/maxx/.m2/repository/io/netty/netty-resolver-dns/4.1.73.Final/netty-resolver-dns-4.1.73.Final.jar:/home/maxx/.m2/repository/io/netty/netty-codec-dns/4.1.73.Final/netty-codec-dns-4.1.73.Final.jar:/home/maxx/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.13.1/jackson-core-2.13.1.jar:/home/maxx/.m2/repository/io/vertx/vertx-web/4.2.4/vertx-web-4.2.4.jar:/home/maxx/.m2/repository/io/vertx/vertx-web-common/4.2.4/vertx-web-common-4.2.4.jar:/home/maxx/.m2/repository/io/vertx/vertx-auth-common/4.2.4/vertx-auth-common-4.2.4.jar:/home/maxx/.m2/repository/io/vertx/vertx-bridge-common/4.2.4/vertx-bridge-common-4.2.4.jar:/home/maxx/.m2/repository/junit/junit/4.13.1/junit-4.13.1.jar:/home/maxx/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/maxx"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-01-17"/>
+    <property name="java.home" value="/usr/lib/jvm/java-17-openjdk-amd64"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/home/maxx/projects/tutorial/youtube/vertx/vertx-sensor/temperature-sensors"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="/home/maxx/projects/tutorial/youtube/vertx/vertx-sensor/temperature-sensors/target/surefire/surefirebooter4663440033487530157.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.6+10-Ubuntu-0ubuntu122.04"/>
+    <property name="user.name" value="maxx"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="6.2.6-76060206-generic"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/home/maxx/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="Unknown"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="17.0.6"/>
+    <property name="user.dir" value="/home/maxx/projects/tutorial/youtube/vertx/vertx-sensor/temperature-sensors"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Private Build"/>
+    <property name="java.vm.version" value="17.0.6+10-Ubuntu-0ubuntu122.04"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="shouldAnswerWithTrue" classname="com.example.vertx.AppTest" time="0.001"/>
+</testsuite>
